@@ -1,0 +1,19 @@
+
+lines = 15
+words = 141
+characters = 918
+blank lines = 2
+The 3 more frequent word(s) are:
+  - 'technology' occurring 4 times
+  - 'have' occurring 3 times
+  - 'daily' occurring 2 times
+
+Dates found in file:
+    10-05-2023
+    22-09-2022
+
+Email address(es) found in file:
+    user1@gmail.com
+    user2@yahoo.com
+
+The word 'technology' appears 4 times in the file
