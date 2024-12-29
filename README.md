@@ -1,4 +1,4 @@
-# YOUR PROJECT TITLE
+# TXTINFO Program
 #### Video Demo:
 https://youtu.be/9rp5PyPw4DA
 #### Description:
