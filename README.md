@@ -2,23 +2,23 @@
 #### Video Demo:
 https://youtu.be/9rp5PyPw4DA
 #### Description:
-Overview:
+###### Overview:
 
 txtinfo.py is a Python script tailored for in-depth analysis of text files, developed as the final project for the CS50P course. It encapsulates a range of functionalities, meticulously engineered for efficient processing, error handling, and output generation.
 
-Execution:
+###### Execution:
 
 The script is invoked via the command line: python txtinfo.py your_text_file.txt. Optionally, the -f or --find flag, followed by a specific word, initiates a targeted word search: python txtinfo.py your_text_file.txt -f captivating_word.
 
-Error Handling:
+###### Error Handling:
 
 The script performs robust input validation. It checks if the provided file has a '.txt' extension and appropriately handles excess command-line arguments, providing informative prompts.
 
-Output Generation:
+###### Output Generation:
 
 Upon execution, txtinfo.py generates an output file named 'your_text_file_info.txt,' summarizing various aspects of the text.
 
-Data Metrics:
+###### Data Metrics:
 
 Line Count (number_of_lines): Calculated by iterating through lines in the file, incrementing the count for each line, including those ending with '\n'.
 
@@ -28,23 +28,23 @@ Character Count (number_of_car): Obtained by determining the length of the entir
 
 Blank Line Count (blank_lines): Tallied by identifying lines consisting of '\n' or '\n\n'.
 
-Word Frequency Analysis:
+###### Word Frequency Analysis:
 
 The script identifies and tallies words with more than three characters, providing insights into the most frequent words.
 
-Date Extraction:
+###### Date Extraction:
 
 Leveraging regular expressions (re.findall), the script identifies date patterns (dd-mm-yyyy) within the text. The dateutil.parser library facilitates parsing and reformatting.
 
-Email Address Extraction:
+###### Email Address Extraction:
 
 Regular expressions isolate potential email addresses, which are then validated using the email_validator library. Valid addresses are presented in the output.
 
-Word Search:
+###### Word Search:
 
 If the -f flag is used, the script searches for the specified word (find) and reports its occurrences in the text.
 
-Output Structure:
+###### Output Structure:
 
 The output file encompasses a comprehensive summary:
 
@@ -60,7 +60,7 @@ Output File Naming:
 
 The output file is named following a structured convention: 'your_text_file_info.txt'.
 
-Acknowledgment:
+###### Acknowledgment:
 
 Upon successful execution, the script provides a confirmation message, reinforcing the creation of the output file.
 
